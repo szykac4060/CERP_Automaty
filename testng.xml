@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count ="1" name="Suite"    parallel="tests" >
+<!--
+   <test name="Test Firefox">
+   <parameter name="platform" value="Windows" />
+  <parameter name="version" value="36.0" />
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://spolecznosc-tst.comarch.pl/" />
+    <classes>
+      <class name="tests.CERP005_Answer"/>
+    </classes>
+    </test>
+      <test name="Test Chrome">
+   <parameter name="platform" value="Windows" />
+  <parameter name="version" value="30.0" />
+  <parameter name="browser" value="firefox" />
+  <parameter name="url" value="https://spolecznosc-tst.comarch.pl/" />
+    <classes>
+      <class name="tests.CopyOfCERP005_AnswerII"/>
+    </classes>
+    </test>
+
+       <test name="Test Firefox">
+   <parameter name="platform" value="Windows" />
+  <parameter name="version" value="30.0" />
+  <parameter name="browser" value="firefox" />
+  <parameter name="url" value="https://spolecznosc-tst.comarch.pl/" />
+    <classes>
+     <class name="tests.CERP001_EditProfile"/>
+    <class name="tests.CERP002_QuestionAddDeleteValidation"/>
+     <class name="tests.CERP003_QuestionAnswerAttachmentSearch"/>
+      <class name="tests.CERP004_QuestionRatingCup"/>
+    </classes>
+    </test>
+      <class name="tests.CERP001_EditProfile"/>
+    <class name="tests.CERP002_QuestionAddDeleteValidation"/>
+     <class name="tests.CERP003_QuestionAnswerAttachmentSearch"/>
+      <class name="tests.CERP004_QuestionRatingCup"/>
+    -->
+      <test name="Test Firefox">
+   <parameter name="platform" value="Windows" />
+  <parameter name="version" value="36" />
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://spolecznosc-tst.comarch.pl/" />
+    <classes>
+      <class name="tests.CERP002_QuestionAddDeleteValidation"/>
+    </classes>
+    </test>
+  
+</suite> <!-- Suite -->

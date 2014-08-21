@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22" started-at="2014-08-13T07:17:48Z" finished-at="2014-08-13T07:17:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22" started-at="2014-08-13T07:17:48Z" finished-at="2014-08-13T07:17:48Z">
+      <class name="tests.CopyOfCERP005_AnswerII">
+        <test-method status="FAIL" signature="getDriver(org.testng.ITestContext)[pri:0, instance:tests.CopyOfCERP005_AnswerII@ebaa6ba]" name="getDriver" is-config="true" duration-ms="0" started-at="2014-08-13T09:17:48Z" finished-at="2014-08-13T09:17:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@608069b9]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at tests.CopyOfCERP005_AnswerII.getDriver(CopyOfCERP005_AnswerII.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="SKIP" signature="TestMethod()[pri:0, instance:tests.CopyOfCERP005_AnswerII@ebaa6ba]" name="TestMethod" duration-ms="1" started-at="2014-08-13T09:17:48Z" finished-at="2014-08-13T09:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:tests.CopyOfCERP005_AnswerII@ebaa6ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-08-13T09:17:48Z" finished-at="2014-08-13T09:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CopyOfCERP005_AnswerII -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

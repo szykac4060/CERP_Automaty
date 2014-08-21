@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="platform" value="Windows"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://spolecznosc-tst.comarch.pl/"/>
+  <parameter name="version" value="36"/>
+  <test name="Test Firefox(failed)" parallel="tests">
+    <parameter name="platform" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://spolecznosc-tst.comarch.pl/"/>
+    <parameter name="version" value="36"/>
+    <classes>
+      <class name="tests.CERP002_QuestionAddDeleteValidation">
+        <methods>
+          <include name="getDriver"/>
+          <include name="TestMethod"/>
+        </methods>
+      </class> <!-- tests.CERP002_QuestionAddDeleteValidation -->
+    </classes>
+  </test> <!-- Test Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

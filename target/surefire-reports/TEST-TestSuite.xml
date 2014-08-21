@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="5.625" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="SeleniumMavenProjekt"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Szymon\.jenkins"/>
+    <property name="PATH" value="C:\Program Files\Java\jdk1.7.0_51/bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Users\Szymon\Downloads\apache-maven-3.1.1-bin\apache-maven-3.1.1\bin;C:\Program Files (x86)\Git\cmd"/>
+    <property name="HERE" value="C:\"/>
+    <property name="HUDSON_SERVER_COOKIE" value="822e7535d289e829"/>
+    <property name="POM_ARTIFACTID" value="CERP"/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CERP"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\Szymon\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="user.name" value="Szymon"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="pl"/>
+    <property name="BUILD_DISPLAY_NAME" value="#24"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Szymon\AppData\Local"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="USERNAME" value="Szymon"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="2014-08-21_13-35-42"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="PL"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_51\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.2"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\Szymon\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="SKACPERSKI"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_51"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Szymon"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="SKACPERSKI"/>
+    <property name="user.script" value=""/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="POM_GROUPID" value="CERP"/>
+    <property name="user.home" value="C:\Users\Szymon"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-SeleniumMavenProjekt-24"/>
+    <property name="JENKINS_SERVER_COOKIE" value="822e7535d289e829"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Szymon"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_51\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven/bin;C:\Program Files\Java\jdk1.7.0_51/bin;C:\Users\Szymon\.jenkins\tools\chromedriver;C:\Program Files\Java\jdk1.7.0_51/bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Users\Szymon\Downloads\apache-maven-3.1.1-bin\apache-maven-3.1.1\bin;C:\Program Files (x86)\Git\cmd;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Szymon\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven"/>
+    <property name="java.class.path" value="C:\Users\Szymon\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven\boot\plexus-classworlds-2.5.1.jar;C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven C:\Users\Szymon\.jenkins\war\WEB-INF\lib\remoting-2.43.jar C:\Users\Szymon\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\Szymon\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 55379"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.7.0_51/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven"/>
+    <property name="java.io.tmpdir" value="C:\Users\Szymon\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Szymon\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumMavenProjekt/24/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Szymon\workspace\CERP"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/SeleniumMavenProjekt/"/>
+    <property name="LOGONSERVER" value="\\MicrosoftAccount"/>
+    <property name="USERDOMAIN" value="SKACPERSKI"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Users\Szymon\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\LocalMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="24"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="PATH+CHROMEDRIVER" value="C:\Users\Szymon\.jenkins\tools\chromedriver"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="VBOX_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="maven3.interceptor" value="C:\Users\Szymon\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Szymon\.jenkins\jobs\SeleniumMavenProjekt\workspace"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Szymon\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase name="getDriver" classname="tests.CERP002_QuestionAddDeleteValidation" time="5.625">
+    <failure message="unknown error: cannot get automation extension&#10;from chrome not reachable&#10;  (Session info: chrome=36.0.1985.143)&#10;  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.14 seconds&#10;Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;&#10;System info: host: &apos;skacperski&apos;, ip: &apos;10.132.31.171&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;&#10;Session ID: fc17d97276085211b2aad5b4111282bd&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Szymon\AppData\Local\Temp\scoped_dir7784_21428}, rotatable=false, locationContextEnabled=true, version=36.0.1985.143, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]&#10;Command duration or timeout: 1.18 seconds&#10;Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;&#10;System info: host: &apos;skacperski&apos;, ip: &apos;10.132.31.171&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_51&apos;&#10;Session ID: e04a5b86-3ec6-4afe-9aee-4e90b8278967&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Szymon\AppData\Local\Temp\scoped_dir7784_21428}, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=e04a5b86-3ec6-4afe-9aee-4e90b8278967, version=36.0.1985.143, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=36.0.1985.143)
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.14 seconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'skacperski', ip: '10.132.31.171', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: fc17d97276085211b2aad5b4111282bd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Szymon\AppData\Local\Temp\scoped_dir7784_21428}, rotatable=false, locationContextEnabled=true, version=36.0.1985.143, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Command duration or timeout: 1.18 seconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'skacperski', ip: '10.132.31.171', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: e04a5b86-3ec6-4afe-9aee-4e90b8278967
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Szymon\AppData\Local\Temp\scoped_dir7784_21428}, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=e04a5b86-3ec6-4afe-9aee-4e90b8278967, version=36.0.1985.143, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:829)
+	at tests.CERP002_QuestionAddDeleteValidation.getDriver(CERP002_QuestionAddDeleteValidation.java:104)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=36.0.1985.143)
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.14 seconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'skacperski', ip: '10.132.31.171', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: fc17d97276085211b2aad5b4111282bd
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Szymon\AppData\Local\Temp\scoped_dir7784_21428}, rotatable=false, locationContextEnabled=true, version=36.0.1985.143, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'skacperski', ip: '10.132.31.171', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:825)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:630)
+	at org.openqa.selenium.remote.server.handler.MaximizeWindow.call(MaximizeWindow.java:30)
+	at org.openqa.selenium.remote.server.handler.MaximizeWindow.call(MaximizeWindow.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</failure>
+    <system-out><![CDATA[CERP002_QuestionAddDeleteValidation
+]]></system-out>
+  </testcase>
+  <testcase name="TestMethod" classname="tests.CERP002_QuestionAddDeleteValidation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="tests.CERP002_QuestionAddDeleteValidation" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
