@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count ="1" name="Suite"    parallel="tests" >
-<!--
-   <test name="Test Firefox">
-   <parameter name="platform" value="Windows" />
-  <parameter name="version" value="36.0" />
-  <parameter name="browser" value="chrome" />
-  <parameter name="url" value="https://spolecznosc-tst.comarch.pl/" />
     <classes>
       <class name="tests.CERP005_Answer"/>
     </classes>
@@ -21,9 +15,6 @@
     </classes>
     </test>
 
-       <test name="Test Firefox">
-   <parameter name="platform" value="Windows" />
-  <parameter name="version" value="30.0" />
   <parameter name="browser" value="firefox" />
   <parameter name="url" value="https://spolecznosc-tst.comarch.pl/" />
     <classes>
