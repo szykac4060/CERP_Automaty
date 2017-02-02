@@ -2,6 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count ="1" name="Suite"    parallel="tests" >
 <!--
+
+
    <test name="Test Firefox">
    <parameter name="platform" value="Windows" />
   <parameter name="version" value="36.0" />
