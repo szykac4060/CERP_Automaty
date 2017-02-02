@@ -6,6 +6,12 @@
   <modelVersion>4.0.0</modelVersion>
   <dependencies>asfasdf
     <dependency>
+      
+      
+      asdf
+      ad
+      fs
+      asdf
         <groupId>org.uncommons</groupId>
         <artifactId>reportng</artifactId>
         <version>1.1.2</version>
