@@ -4,10 +4,7 @@
   <artifactId>CERP</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <modelVersion>4.0.0</modelVersion>
-
-  
-  
-  <dependencies>
+  <dependencies>asfasdf
     <dependency>
         <groupId>org.uncommons</groupId>
         <artifactId>reportng</artifactId>
