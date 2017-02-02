@@ -4,6 +4,12 @@
   <artifactId>CERP</artifactId>
   <version>0.0.1-SNAPSHOT</version>
     <dependency>
+      
+      
+      asdf
+      ad
+      fs
+      asdf
         <groupId>org.uncommons</groupId>
         <artifactId>reportng</artifactId>
         <version>1.1.2</version>
@@ -65,4 +71,7 @@
         </plugins>
     </pluginManagement>
   </build>
+  
+  
+  dasfasdfasdf
 </project>
