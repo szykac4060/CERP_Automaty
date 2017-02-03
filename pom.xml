@@ -4,9 +4,6 @@
   <artifactId>CERP</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <modelVersion>14.0.0</modelVersion>
-
-  
-  wertrewt
   <dependencies>
     <dependency>
         <groupId>org.uncommons</groupId>
